@@ -1,4 +1,4 @@
-html, body {
+h1.svelte-1wylaes{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}.card-container.svelte-1wylaes{display:inline-flex;justify-content:center;align-items:center;min-height:500px;min-width:380px;margin-right:20px;margin-bottom:20px}.card-container.short.svelte-1wylaes{min-height:200px}.svelte-1wylaes .card-media-16x9{background-image:url(https://via.placeholder.com/320x180.png?text=16x9)}.svelte-1wylaes .card-media-square{background-image:url(https://via.placeholder.com/320x320.png?text=square)}html, body {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -61,7 +61,7 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
-h1.svelte-1wylaes{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}.card-container.svelte-1wylaes{display:inline-flex;justify-content:center;align-items:center;min-height:500px;min-width:380px;margin-right:20px;margin-bottom:20px}.card-container.short.svelte-1wylaes{min-height:200px}.svelte-1wylaes .card-media-16x9{background-image:url(https://via.placeholder.com/320x180.png?text=16x9)}.svelte-1wylaes .card-media-square{background-image:url(https://via.placeholder.com/320x320.png?text=square)}/*!
+/*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)

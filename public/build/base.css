@@ -1,15 +1,8 @@
-h1.svelte-1wylaes{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}.card-container.svelte-1wylaes{display:inline-flex;justify-content:center;align-items:center;min-height:500px;min-width:380px;margin-right:20px;margin-bottom:20px}.card-container.short.svelte-1wylaes{min-height:200px}.svelte-1wylaes .card-media-16x9{background-image:url(https://via.placeholder.com/320x180.png?text=16x9)}.svelte-1wylaes .card-media-square{background-image:url(https://via.placeholder.com/320x320.png?text=square)}html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
+body{background:url(../img/Fondo.png);background-repeat:no-repeat;background-size:cover;background-color:#111518;height:100%}.menu_abajo{background-color:white;bottom:0px;position:fixed;width:100%;display:inline-flex;justify-content:center}.menu_abajo li{color:black}.navbarbaja.svelte-1h8dx1g{background-color:#DFD7C3;overflow:hidden;position:fixed;bottom:0px;width:100%;z-index:999;margin:0 auto;padding:5px;border-radius:30px 30px 0px 0px;-moz-border-radius:30px 30px 0px 0px;-webkit-border-radius:30px 30px 0px 0px;border:0px solid}
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-body {
-	color: #333;
-	margin: 0;
-	padding: 8px;
-	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+body{
+	font-family: 'Lora', serif;
 }
 
 a {
@@ -60,8 +53,7 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
-}
-/*!
+}/*!
  * Materialize v1.0.0 (http://materializecss.com)
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
@@ -9128,3 +9120,4 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+.botones_dioses.svelte-16uca4w.svelte-16uca4w{overflow:auto;white-space:nowrap;background-color:transparent;padding-top:10px;padding-bottom:10px;-ms-overflow-style:none;scrollbar-width:none;height:200px;position:absolute;font-family:'Lora', serif}.botones_dioses.svelte-16uca4w.svelte-16uca4w::-webkit-scrollbar{display:none}.btn_dioses.svelte-16uca4w.svelte-16uca4w{display:inline-block;width:100px}.btn_dioses.svelte-16uca4w.svelte-16uca4w::-webkit-scrollbar{display:none}.btn-dios.svelte-16uca4w.svelte-16uca4w{border:0px}.dioses.svelte-16uca4w.svelte-16uca4w{margin-top:220px;color:white}.dioses_card.svelte-16uca4w.svelte-16uca4w{margin:0px auto;display:flex;border:2px solid #DFD7C3;border-radius:28px}.dioses_card.svelte-16uca4w button.svelte-16uca4w{width:100%;background-color:#DFD7C3;border-radius:0px 0px 23px 23px}.txt_sabermas.svelte-16uca4w.svelte-16uca4w{font-family:Palatino-Bold;font-size:14px;color:#1A1C20;text-align:center}nav.svelte-16uca4w.svelte-16uca4w{top:70px!important;box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0) !important;webkit-box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0) !important}.fondo.svelte-1lzw5cu.svelte-1lzw5cu{background-color:#333;margin:0px;padding:0px;height:100%;width:100vw}.logo_RT.svelte-1lzw5cu.svelte-1lzw5cu{padding-top:20px;padding-bottom:20px}.icon_contact.svelte-1lzw5cu.svelte-1lzw5cu{margin-top:40px;margin-bottom:40px}.shape-fill.svelte-1lzw5cu.svelte-1lzw5cu{fill:#333}.shape.svelte-1lzw5cu.svelte-1lzw5cu{transform:rotate(180deg)}.navbar.svelte-1lzw5cu.svelte-1lzw5cu{padding:15px 0 11px;background-color:#212121;position:fixed;width:100%;top:0;left:0;right:0;z-index:99}.navbar.svelte-1lzw5cu .content-left.svelte-1lzw5cu{display:inline-flex;vertical-align:middle}.navbar.svelte-1lzw5cu .content-right.svelte-1lzw5cu{text-align:right;vertical-align:middle}.navbar.svelte-1lzw5cu .row.svelte-1lzw5cu{margin-bottom:0}.axustes.svelte-1lzw5cu.svelte-1lzw5cu{text-align:right}.prev.svelte-1lzw5cu.svelte-1lzw5cu{padding-top:5px}.banner.svelte-1lzw5cu img.svelte-1lzw5cu{display:block;margin:0px auto;padding-bottom:0px;padding-top:50px;width:30%}.about-tit.svelte-1lzw5cu.svelte-1lzw5cu{color:white;font-family:Roboto;font-size:18px;font-weight:600;text-align:center}.about-version.svelte-1lzw5cu.svelte-1lzw5cu{color:white;font-family:Roboto;font-size:12px;font-weight:300;text-align:center}.about-txt.svelte-1lzw5cu.svelte-1lzw5cu{color:white;font-family:Roboto;font-size:14px;font-weight:300;text-align:center;padding-top:20px}.about-textoDos.svelte-1lzw5cu.svelte-1lzw5cu{padding-top:40px;margin-top:40px}.licencia-txt.svelte-1lzw5cu.svelte-1lzw5cu{color:white;font-family:Roboto;font-size:11px;font-weight:300;text-align:justify;padding-top:20px}nav.svelte-143ymqr{box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0) !important;webkit-box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0.0), 0 0px 0px 0 rgba(0, 0, 0, 0.0) !important}.brand-logo.svelte-143ymqr{margin-top:10px}.logo_rubenterre.svelte-1xl4vz2{text-align:left;display:flex}footer.svelte-1xl4vz2{text-align:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;padding:20px 20px 20px 20px;background:#141414;bottom:0px}

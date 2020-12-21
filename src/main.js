@@ -5,10 +5,8 @@ import '../node_modules/materialize-css/dist/js/materialize.js'
 
 
 const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+	target: document.body
+
 });
 
 M.AutoInit()

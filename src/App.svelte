@@ -1,79 +1,61 @@
 <script>
-	import Router from 'svelte-spa-router'
-  import { link } from 'svelte-spa-router'
-  import routes from './routes.js'
-  
-  function share(){
-    Website2APK.shareIntent();
-  }
-  
+	export let name;
+
+	import Card, {Content, PrimaryAction, Media, MediaContent, Actions, ActionButtons, ActionIcons} from '@smui/card';
+  import Button, {Label} from '@smui/button';
+  import IconButton, {Icon} from '@smui/icon-button';
+  import List, {Item, Text} from '@smui/list';
+  let clicked = 0;
 </script>
 
 <main>
-
-    <!-- navbar bottom -->
-    <nav class="navbarbaja">
-      <div class="nav-fixed">
-          <a href="/" use:link class="brand-logo center"><img src="img/Icon_menu/inicio.svg" alt="inicio" width="80%"></a>
-          
-          <ul id="nav-mobile left">
-              <li><a href="/Informacion" use:link ><i class="material-icons brown-text darken-2-text">info_outline</i></a></li>
-          </ul>
-
-          <ul class="nav-mobile right">
-              <li><a on:click={() => share()} ><i class="material-icons brown-text darken-2-text">share</i></a></li>
-          </ul>
-
-      </div>
-  </nav>
-
-<Router {routes} />
+	<div class="container">
+		<h1 class="center">Hello {name}!</h1>
+		<div class="card-panel teal lighten-2">Play with Materialize CSS </div>
+		<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	
+	
+		<div class="card-container short">
+			<Card style="width: 320px;">
+			  <Content>Play with SMUI</Content>
+			  <Actions fullBleed>
+				<Button on:click={() => clicked++}>
+				  <Label>Action</Label>
+				  <i class="material-icons" aria-hidden="true">arrow_forward</i>
+				</Button>
+			  </Actions>
+			</Card>
+		  </div>
+	</div>
 
 
 </main>
 
 <style>
-/* Estilos generales */
 
-:global(body) {
-    background: url(../img/Fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #111518;
-    height: 100%;
-}
+	h1 {
+		color: #ff3e00;
+		text-transform: uppercase;
+		font-size: 4em;
+		font-weight: 100;
+	}
 
-
-
-:global(.menu_abajo){
-	background-color: white;
-	bottom: 0px;
-	position: fixed;
-	width: 100%;
-  display: inline-flex;
-  justify-content: center;
-}
-
-:global(.menu_abajo li){
-  color: black;
-
-}
-
-/* barra baja */
-.navbarbaja {
-    background-color: #DFD7C3;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    z-index: 999;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 30px 30px 0px 0px;
-    -moz-border-radius: 30px 30px 0px 0px;
-    -webkit-border-radius: 30px 30px 0px 0px;
-    border: 0px solid;
-
-}
-
+	.card-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    min-width: 380px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .card-container.short {
+    min-height: 200px;
+  }
+  * :global(.card-media-16x9) {
+    background-image: url(https://via.placeholder.com/320x180.png?text=16x9);
+  }
+  * :global(.card-media-square) {
+    background-image: url(https://via.placeholder.com/320x320.png?text=square);
+  }
 </style>
